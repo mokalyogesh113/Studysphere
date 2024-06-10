@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const serverApi = "https://studysphere-raw.onrender.com/api";
+const serverApi = "";
 
 export const getRoomExists = async (roomId) => {
   const response = await axios.get(`${serverApi}/room-exists/${roomId}`);
